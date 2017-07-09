@@ -1,13 +1,8 @@
 define(["require", "exports", "jquery", "./PotatoExtractor"], function (require, exports, jQuery, PotatoExtractor_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    /*export * from './PotatoCooker';
-    export * from './PotatoExtractor';
-    export * from './PotatoGallery';
-    export * from './PotatoGalleryEntry';
-    export * from './PotatoTalk';
-    export * from './RawPotato';
-    */
+
+
     class Potato {
         constructor() {
             jQuery(document).ready(() => {
