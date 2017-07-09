@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "../script/",
+        "sourceMap": true,
+        "target": "es2017",
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+    "files": [
+        "potato.ts"
+    ]
+    /*
+    , "files": [
+        "core.ts",
+        "sys.ts",
+        "types.ts",
+        "scanner.ts",
+        "parser.ts",
+        "utilities.ts",
+        "binder.ts",
+        "checker.ts",
+        "emitter.ts",
+        "program.ts",
+        "commandLineParser.ts",
+        "tsc.ts",
+        "diagnosticInformationMap.generated.ts"
+    ]
+    */
+}
